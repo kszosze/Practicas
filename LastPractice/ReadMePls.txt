@@ -1,0 +1,5 @@
+Vale el codigo es un codigo hecho para salir del paso en el anterior boletin, ahora lo que tengo que hacer es que el torneo se pueda representar en forma de arbol, y poder tener varios torneos activos a la vez. El tema es que no se si deberia cambiar todo el codigo para que sea un arbol o modificar el que tengo ahora que es con array list y hacer un metodo que cree un arbol.
+
+La practica es asi, te dan una serie de participantes que se inscriben al torneo, potencia de dos para que sea mas facil de hacer, y se tiene que generar el torneo entero desde el principio, es decir generar los partidos de la primera ronda con los participantes enfrentados y luego las demas rondas los partidos sin equipos, y cuando se juegen los partidos y se decida el ganador se pase el participante ganador a su partido sucesor correspondiente, por que ya desde el principio cada partido de la primera ronda tiene seleccionado un partido sucesor.
+
+Yo lo que hice es guardar en dos arrays las posiciones que corresponden con los partidos sucesores y antecesores...
